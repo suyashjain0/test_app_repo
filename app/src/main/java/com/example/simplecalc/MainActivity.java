@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void subtract(View view) {
         int a = Integer.parseInt(num1.getText().toString());
         int b = Integer.parseInt(num2.getText().toString());
-        result.setText("Result: " + (a - b));
+        result.setText("Result of subtraction: " + (a - b));
     }
 }
 
