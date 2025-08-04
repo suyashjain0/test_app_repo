@@ -18,32 +18,24 @@ public class MainActivity extends AppCompatActivity {
         num1 = findViewById(R.id.editTextNumber1);
         num2 = findViewById(R.id.editTextNumber2);
         result = findViewById(R.id.textViewResult);
-    
-    public void subtract(View view) {
-        int a = Integer.parseInt(num1.getText().toString());
-        int b = Integer.parseInt(num2.getText().toString());
-        result.setText("Result of subtraction: " + (a - b));
     }
-}
-
 
     public void add(View view) {
         int a = Integer.parseInt(num1.getText().toString());
         int b = Integer.parseInt(num2.getText().toString());
         result.setText("Result: " + (a + b));
-    
+    }
+
     public void subtract(View view) {
         int a = Integer.parseInt(num1.getText().toString());
         int b = Integer.parseInt(num2.getText().toString());
         result.setText("Result: " + (a - b));
     }
-}
 
-
-    public void subtract(View view) {
+    public void multiply(View view) {
         int a = Integer.parseInt(num1.getText().toString());
         int b = Integer.parseInt(num2.getText().toString());
-        result.setText("Result: " + (a - b));
+        result.setText("Result: " + (a * b));
     }
 }
 
